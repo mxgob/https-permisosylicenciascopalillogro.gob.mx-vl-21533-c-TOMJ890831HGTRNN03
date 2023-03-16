@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Tr&aacute;nsito COPALILLO, GRO.</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" href="https://permisosylicenciascopalillogro.gob.mx/img/favicon.png">
+    <link rel="stylesheet" href="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/css/main.css?v1.1" />
+    <style type="text/css">
+      @media  screen and (max-width: 1680px) {
+        .logo-transito-top {
+          width: 80px;
+          float: left;
+          margin-left: 3em;
+          margin-top: -1.4em;
+        }
+
+        .logo-municipio-top {
+          width: 250px;
+          float: left;
+          margin-left: 0.5em;
+          margin-top: -1.4em;
+        }
+
+        .logo-guerrero-top {
+          width: 200px;
+          float: right;
+          margin-right: 3em;
+          margin-top: -1.7em;
+        }
+
+        .logo-transito {
+          display: none;
+        }
+
+        .logo-municipio {
+          display: none;
+        }
+
+        .logo-guerrero {
+          display: none;
+        }
+      }
+
+      @media  screen and (max-width: 840px) {
+        .logo-transito {
+          width: 150px;
+          display: inherit;
+        }
+
+        .logo-municipio {
+          width: 250px;
+          display: inherit;
+        }
+
+        .logo-guerrero {
+          width: 200px;
+          display: inherit;
+        }
+      }
+
+      @media  screen and (max-width: 736px) {
+        .logo-transito {
+          width: 150px !important;
+        }
+
+        .logo-municipio {
+          width: 200px !important;
+          margin-left: 3em !important;
+        }
+
+        .logo-guerrero {
+          width: 160px !important;
+          margin-left: 4em !important;
+        }
+      }
+    </style>
+        <link href="https://permisosylicenciascopalillogro.gob.mx/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        @media  only screen and (min-width: 768px) {
+            .well {
+                padding: 0em 2em !important;
+            }
+            .well p, #busqueda_permiso {
+                width: 50%;
+            }
+        }
+        @media  only screen and (max-width: 768px) {
+            .well {
+                padding: 1em !important;
+            }
+        }
+        @media  only screen and (min-width: 1280px) {
+            .xxx {
+                padding-top: 0;
+            }
+        }
+        .table-responsive {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+        }
+        tr td, tr th {
+            text-align: center;
+            padding: 5px;
+        }
+        #fila_licencia {
+            border-top: 1px solid gray;
+        }
+
+        .valid {
+            background-color: rgb(223, 240, 216);
+        }
+
+        .alert-warning {
+            padding: 1em;
+            border-radius: 4px;
+            border: 1px solid #fdd835;
+            background-color: #fff9c4;
+        }
+
+        .img-thumbnail {
+            padding: .25rem;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: .25rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,.075);
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            width: 125px;
+        }
+
+        #header h1 {
+            padding: 0 0 3em 0 !important;
+            font-size: 1.2em !important;
+        }
+
+        #header h1 a:hover {
+            text-decoration: none !important;
+            color: #37c0fb !important;
+        }
+
+        .etiqueta {
+            margin: 0px;
+            text-align: right;
+            font-weight: bold;
+        }
+        .valor {
+            margin: 0px;
+            padding-left: 0;
+            text-align: left;
+            border: 0px solid red;
+        }
+
+        #yyy .row {
+            padding-top: 5px;
+        }
+
+        #logo_guerrero {
+            border-radius: .25rem;
+            width: 220px;
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            background-color: transparent;
+        }
+
+        #logo_transito {
+            width: 110px;
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            background-color: transparent;
+        }
+    </style>
+  </head>
+  <body class="is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+        <div id="header">
+
+          <!-- Logo -->
+          <img src="https://permisosylicenciascopalillogro.gob.mx/img/logo_transito_copalillo.png" class="logo-transito-top">
+          <img src="https://permisosylicenciascopalillogro.gob.mx/img/logo_2021.png" class="logo-municipio-top">
+          <img src="https://permisosylicenciascopalillogro.gob.mx/img/transformando_guerrero.jpg" class="logo-guerrero-top">
+            <h1><a href="https://permisosylicenciascopalillogro.gob.mx" id="logo" style="margin-left: -2em;">Tr&aacute;nsito COPALILLO, GRO.</a></h1>
+
+          <!-- Nav -->
+            <nav id="nav">
+              <ul>
+                <li class=""><a href="https://permisosylicenciascopalillogro.gob.mx">Inicio</a></li>
+                <li class="current">
+                  <a href="#">Verificar</a>
+                  <ul>
+                    <li><a href="https://permisosylicenciascopalillogro.gob.mx/verificar-permiso">Permiso</a></li>
+                    <li><a href="https://permisosylicenciascopalillogro.gob.mx/verificar-licencia">Licencia</a></li>
+                    
+                  </ul>
+                </li>
+
+                <li><a href="https://permisosylicenciascopalillogro.gob.mx/repuve" target="_blank">Repuve</a></li>
+                
+                <li class=""><a href="https://permisosylicenciascopalillogro.gob.mx/informacion-tramites">Tr&aacute;mite</a></li>
+                
+                <li class=""><a href="https://permisosylicenciascopalillogro.gob.mx/contacto">Contacto</a></li>
+                <li class="">
+                                      <a href="https://permisosylicenciascopalillogro.gob.mx/login">Panel Administrativo</a>
+                                                    </li>
+              </ul>
+            </nav>
+
+        </div>
+
+      <!-- Page Content -->
+      <section class="wrapper style1">
+    <div class="container" style="padding-left: 0px; padding-right: 0px;">
+        <div class="row mt-4">
+            <div class="col-12 col-md-offset-0 xxx" style="padding-left: 0px;">
+                <div style="text-align: center; padding: 0px 10px 5px;">
+                    <img src="https://permisosylicenciascopalillogro.gob.mx/img/transformando_guerrero.jpg" class="" id="logo_guerrero">
+                    <img src="https://permisosylicenciascopalillogro.gob.mx/img/logo_transito_copalillo.png" class="" id="logo_transito">
+                </div>
+                <div class="well">
+                                            <h1>Licencia Aut&eacute;ntica</h1>
+                        
+
+                        <div class="panel panel-primary">
+    <div class="panel-heading">
+        <div class="panel-title">Verificador de Licencia</div>
+    </div>
+    <div style="padding:20px 0px 20px 0px;" class="panel-body">
+        <div class="col-lg-6 text-center" style="border: 0px solid red; padding: 0px; margin: 0px;">
+            <div class="row">
+                <div class="col-xs-5">
+                    <img src="125X150.jpg">
+                </div>
+                <div id="yyy" class="col-xs-7" style="font-size: 13px; margin-left: -30px;">
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">Folio:</div>
+                        <div class="col-xs-7 valor">89083</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">Tipo:</div>
+                        <div class="col-xs-7 valor">A - AUTOMOVILISTA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">Nombre:</div>
+                        <div class="col-xs-7 valor">JUAN MANUEL</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">Apellidos:</div>
+                        <div class="col-xs-7 valor">TORRES MENDEZ</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">CURP/RFC:</div>
+                        <div class="col-xs-7 valor">TOMJ890831HGTRNN03</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">Vigencia:</div>
+                        <div class="col-xs-7 valor">5 AÑOS</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 etiqueta">Vence:</div>
+                        <div class="col-xs-7 valor">11-02-2027</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <div class="text-center">Licencia de Tr&aacute;nsito Municipal</div>
+    </div>
+</div>
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <!-- /.container -->
+
+      <!-- Footer -->
+        <div id="footer">
+
+          <!-- Icons -->
+            <ul class="icons">
+              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+
+          <!-- Copyright -->
+            <div class="copyright">
+              <ul class="menu">
+                <li>&copy; Municipio de Copalillo, Gro. Todos los derechos reservados.</li>
+              </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/js/jquery.min.js"></script>
+      <script src="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/js/jquery.dropotron.min.js"></script>
+      <script src="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/js/browser.min.js"></script>
+      <script src="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/js/breakpoints.min.js"></script>
+      <script src="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/js/util.js"></script>
+      <script src="https://permisosylicenciascopalillogro.gob.mx/vendor/arcana/assets/js/main.js"></script>
+
+          <script src="https://permisosylicenciascopalillogro.gob.mx/js/jquery-3.4.1.min.js"></script>
+    <script src="https://permisosylicenciascopalillogro.gob.mx/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
